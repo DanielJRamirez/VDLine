@@ -11,3 +11,5 @@ preprocess.py: Python file used to hold the function used to tokenize and otherw
 main.py: Main python file used to train and evaluate the Doc2Vec model and binary classification model
 
 vul_detector.py: Python script using saved Doc2Vec and classifier models to predict vulnerability probabilities for each line of the code file passed into it
+
+one_function.c: Single c function contained in a file. Included for simple testing of vul_detector.py
